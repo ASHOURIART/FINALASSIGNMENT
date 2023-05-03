@@ -1,0 +1,10 @@
+.my-button {
+    background-color: #dadada; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Set padding */
+    border-radius: 8px; /* Set border radius */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Change cursor to hand on hover */
+  }
+  

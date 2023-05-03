@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <title>Slience speaks louder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<style>
+      
+		body {
+			background-color: #333333;
+			color: #ffffff;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 4px 2px;
+			box-sizing: border-box;
+		}
+		h1 {
+			font-size: 36px;
+			margin-bottom: 30px;
+			text-align: center;
+		}
+		form {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 30px;
+            text-align: center;
+		}
+		input[type="text"], input[type="email"], textarea {
+			padding: 10px;
+			margin: 10px;
+			border-radius: 5px;
+			border: none;
+			background-color: #ffffff;
+			width: 100%;
+			max-width: 400px;
+			box-sizing: border-box;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		input[type="submit"] {
+			padding: 10px 30px;
+			margin: 10px;
+			border-radius: 5px;
+			border: none;
+			background-color: #ff6600;
+			color: #ffffff;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.5;
+			cursor: pointer;
+		}
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		textarea {
+			height: 200px;
+		}
+		@media screen and (max-width: 768px) {
+			form {
+				flex-direction: column;
+			}
+			input[type="text"], input[type="email"], textarea {
+				max-width: none;
+				width: 100%;
+			}
+			input[type="submit"] {
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+        <div style="font-family: Century Gothic,  CenturyGothic, AppleGothic, sans-serif; font-size: 18px;">
+            <h1>Contact Me!</h1>
+		<form>
+			<main>
+  <form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button style="background-color: rgb(224, 224, 224); padding: 10px 20px; font-size: 14px; color: rgb(0, 0, 0); font-family: Century Gothic,  CenturyGothic, AppleGothic, sans-serif; border: none; border-radius: 5px;">Send it silent!</button>
+
+  </form>
+</main>
+
+		</form>
+	</div>
+</body>
+</html>
